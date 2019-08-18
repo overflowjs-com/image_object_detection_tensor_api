@@ -28,10 +28,14 @@
   "author": "Jason Miller <jason@developit.ca>",
   "license": "MIT",
   "dependencies": {
+    "@tensorflow/tfjs-node": "^1.2.7",
+    "@tensorflow-models/coco-ssd": "^2.0.0",
+    "@tensorflow-models/mobilenet": "^2.0.3",
     "body-parser": "^1.13.3",
     "compression": "^1.5.2",
     "cors": "^2.7.1",
     "express": "^4.13.3",
+    "jpeg-js": "^0.3.6",
     "morgan": "^1.8.0",
     "resource-router-middleware": "^0.6.0"
   },
