@@ -3,9 +3,6 @@ import { Router } from 'express';
 import facets from './facets';
 
 import ObjectDetectors from './object_detectors/ObjectDetectors';
-// import ImageNetDetect from './object_detectors/ImageNetDetect';
-
-import CocossdDetect from './object_detectors/CocoSddDetect';
 
 const tf = require('@tensorflow/tfjs-node');
 
@@ -26,11 +23,10 @@ export default ({ config, db }) => {
 		const data = req.body.data;
 		const type = req.body.type;
 
-		// const objectDetactors = new ObjectDetectors(data, type);
-		// const results = await objectDetactors.process();
+		console.log(" Type : ", type);
 
-		const imageNetDetect = new CocossdDetect(data);
-		const results = await imageNetDetect.process();
+		const objectDetect = new ObjectDetectors(data, type);
+		const results = await objectDetect.process();
 
 		res.json(results);
 	});
