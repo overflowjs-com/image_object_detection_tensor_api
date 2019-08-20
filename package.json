@@ -24,8 +24,7 @@
       "no-unused-vars": 1
     }
   },
-  "repository": "developit/express-es6-rest-api",
-  "author": "Jason Miller <jason@developit.ca>",
+  "author": "Rakesh Bhatt <bhattrakesh09@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.0.0",

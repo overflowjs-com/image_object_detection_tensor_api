@@ -23,8 +23,6 @@ export default ({ config, db }) => {
 		const data = req.body.data;
 		const type = req.body.type;
 
-		console.log(" Type : ", type);
-
 		const objectDetect = new ObjectDetectors(data, type);
 		const results = await objectDetect.process();
 
