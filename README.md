@@ -1,7 +1,11 @@
 # Project Details
-This is api project part of tutorial on overflow.js over image detection with tensor flow
+This is API project on overflowjs.com over object detection in image with tensorflow.js
 Got ahead install and run project
 Make sure you have latest node version tfjs-node do some issues while installing latest releases 
+
+Frontend part of code is - https://github.com/overflowjs-com/image_object_detction_react_ui
+
+Do read the blog to know more - https://overflowjs.com/posts/Image-Object-Detection-Using-TensorFlowjs.html
 
 # Install dependencies
 npm install
